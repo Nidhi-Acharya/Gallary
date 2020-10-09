@@ -1,0 +1,65 @@
+*{
+	padding: 0;
+	margin: 0;
+		 box-sizing: border-box;
+}
+body{
+	background:url("images/bg4.jfif");
+	background-position: center;
+	background-size:cover; 
+}
+h1{
+	font-family: 'Prata', serif;
+	text-transform: uppercase;
+	margin:1.06%;
+}
+img{
+	width:30%;
+	float:left;
+	margin: 1%;
+}
+nav a:hover{
+	color:yellow;
+}
+#main
+{
+	padding:1.06%;
+}
+#id_of_navbar_content{
+
+	position:relative;
+	right:0;
+ 	text-align: right;
+}
+#main img{
+	border:5px solid white;
+}
+.nav{
+	top:0;
+	margin-top: 0;
+	
+}
+.navbar{
+	background-color: rgb(9,9,9) !important;
+	color:white !important;
+}
+
+.navbar a{
+	color:white;
+
+  display: block;
+ 
+
+}
+
+.navbar-brand{
+    font-family: 'Prata', serif;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    padding-bottom: 0.05%;
+    margin-left: 10%;
+}
+.jumbotron{
+	color: #FFFFFF;
+	background-color:rgb(25,25,25) !important;
+}
